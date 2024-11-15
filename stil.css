@@ -1,0 +1,25 @@
+
+body {
+    
+    background-color: rgb(166, 164, 237); 
+}
+
+.baslik1 {
+    background-color:  rgb(6, 186, 246);
+    padding: 100px;
+    text-align: center;
+}
+
+.baslik2 {
+    list-style:none; 
+    background-color:  rgb(6, 186, 246);
+    padding: 30px;
+    text-align: left;
+}
+
+.baslik3 {
+    list-style:none; 
+    background-color:  rgb(6, 186, 246);
+    padding: 30px;
+    text-align: left;
+}

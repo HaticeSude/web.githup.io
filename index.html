@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8"> <!--Sayfanın karakter setini türkçe karakterler için ayarlama-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Mobilde görünüşü ayarlanabilsin diye-->
+    <title>Anasayfa</title>
+    <!--Küçük amblem -->
+   <link href="img/image.png" rel="icon">
+   <link rel="stylesheet" href="stil.css"> <!--css kodlarının yazıldığı sayfayı eklemek için kullandım-->
+
+</head>
+
+<ul class="baslik1"> <!--renklendirmek istediğim kısmı class içerisinde yazdım. sonra cssde sadece 
+    class adını vererek bulunduğu alanın arkaplanının rengini değiştirdim-->
+
+
+<h1>ANASAYFA</h1> <!--sayfamın ana başlığı-->
+</ul>
+
+
+<nav> 
+     <!--sayfalar arası geçişler için eklenmiş linkler-->
+    <a href="hakkimda.html">Hakkımda</a> <!--hakkımda sayfasına gidiyor-->
+    <a href="projeler.html">Projeler</a> <!--projeler sayfasına gidiyor-->
+    
+</nav>
+
+<hr>
+
+<body> <!--burada javascript kodlarını kullanarak şuanki tarih ve saati gösteren bir buton yaptım. ancak butona tekrar bastığımızda tarih ve saat kapanmıyor ama 
+    tarih ve saatin güncellenmesini sağlıyor-->
+    <button type="button"
+    onclick="document.getElementById('zaman').innerHTML = Date()">
+    Tarih ve Saat
+</button>
+<p id="zaman"></p>
+</body>
+<hr> <!-- <hr> etiketini kullanarak kodumun içerisinde istediğim yerleri bölüştürdüm.-->
+<h2>
+    Hoş Geldiniz</h2> <!--istenilen hoşgeldin etiketini yazdım-->
+
+</html> 
